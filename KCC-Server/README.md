@@ -1,16 +1,16 @@
 # Flagship Analysis: The KCC (Katastrophe Command Center)
 
-`This document provides a detailed overview of the primary Proxmox VE hypervisor node, "The KCC." This server forms the core of the fleet's infrastructure, providing the compute, storage, and virtualization resources for all self-hosted services.`
+This document provides a detailed overview of the primary Proxmox VE hypervisor node, "The KCC." This server forms the core of the fleet's infrastructure, providing the compute, storage, and virtualization resources for all self-hosted services.
 
 `## I. Mission & Role`
 
-`The KCC's primary mission is to serve as a stable, reliable, and power-efficient 24/7 platform for a diverse range of containerized (LXC) and fully virtualized (VM) workloads. It is architected for flexibility, scalability, and ease of management, acting as the central hub for the entire home lab.`
+The KCC's primary mission is to serve as a stable, reliable, and power-efficient 24/7 platform for a diverse range of containerized (LXC) and fully virtualized (VM) workloads. It is architected for flexibility, scalability, and ease of management, acting as the central hub for the entire home lab.
 
 `---`
 
 `## II. Hardware Manifest`
 
-`The KCC is a custom-built server, assembled from a combination of new and repurposed hardware ("Franken-PC"), optimized for a balance of performance and power efficiency.`
+The KCC is a custom-built server, assembled from a combination of new and repurposed hardware ("Franken-PC"), optimized for a balance of performance and power efficiency.
 
 | Component | Make & Model | Specifications | Notes |
 | :--- | :--- | :--- | :--- |
