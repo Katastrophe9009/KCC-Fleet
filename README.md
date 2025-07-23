@@ -30,33 +30,33 @@ My home network is architected as a fleet of specialized machines, each with a d
     **Role:** The primary workhorse of the fleet. The KCC runs all 24/7 background services and infrastructure in isolated LXC containers and VMs. Its duties include application hosting, media serving, storage management, and future AI/compute workloads.
 
 #### Key Services Hosted on the KCC:
-    Service	Container      ID	      IP Address	  Purpose	            Status
-    Jellyfin	           100	      10.0.0.243	  Media Streaming	    Active
-    Pterodactyl Panel	   101	      10.0.0.33	      Game Server Mgmt	    Active
-    Pterodactyl Wings	   102	      10.0.0.50	      Game Server Host	    Active
-    Metube                 103        10.0.0.12       Video Site dwnlds.    Active
-    Prowlarr    	       104	      10.0.0.248	  Torrent Index Mngr.   Active
-    VSCode	               105	      10.0.0.67	      Code Repository       Active
-    Windows 11 VM          106        10.0.0.xx       Windows VM            As Needed
-    Radarr                 107        10.0.0.11       Movie Library Mangr.  Active
-    Wireguard              108        10.0.0.46       Private VPN           Active
-    Home Assistant VM      109        10.0.0.95       Home Automation       Active
-    qBittorrent            110        10.0.0.167      Bittorrent Client     Active
-    Vaultwarden            111        10.0.0.181      Password Vault        Active
-    Nextcloud              112        10.0.0.246      File Sync & Backup    WIP
-    Prometheus             113        10.0.0.209      Alert Monitor         Active
-    Grafana                114        10.0.0.36       Info Dashboard        Active
-    Heimdall               115        10.0.0.40       Launcher Dashboard    Active
-    Uptime Kuma            116        10.0.0.13       Services Monitor      Active
-    Runtipi                117        10.0.0.184      App Browser           Active
-    AdGuard                118        10.0.0.137      Network Ad Blocker    Active
-    Streamlink             119        10.0.0.233      Web-Stream DVR        Active
-    Ombi                   120        10.0.0.98       Media Request Portal  Active
-    MariaDB                121        10.0.0.136      Database              Active
-    Ollama	               122	      10.0.0.170	  AI/LLM Host	        Active
-    Nginx Proxy Manager	   124	      10.0.0.232	  Reverse Proxy	        Active
-    Flaresolverr           125        10.0.0.48       Cloudflare Workaround Disabled
-    OpenMediaVault         130        10.0.0.5        NFS / SMB File Host   Active
+    Service Container          ID	IP Address	  Purpose	            Status
+    Jellyfin	               100      10.0.0.243	  Media Streaming	    Active
+    Pterodactyl Panel	       101      10.0.0.33	  Game Server Mgmt	    Active
+    Pterodactyl Wings	       102      10.0.0.50	  Game Server Host	    Active
+    Metube                     103      10.0.0.12         Video Site dwnlds.        Active
+    Prowlarr    	       104      10.0.0.248	  Torrent Index Mngr.       Active
+    VSCode	               105      10.0.0.67	  Code Repository           Active
+    Windows 11 VM              106      10.0.0.xx         Windows VM                As Needed
+    Radarr                     107      10.0.0.11         Movie Library Mangr.      Active
+    Wireguard                  108      10.0.0.46         Private VPN               Active
+    Home Assistant VM          109      10.0.0.95         Home Automation           Active
+    qBittorrent                110	10.0.0.167        Bittorrent Client         Active
+    Vaultwarden                111      10.0.0.181        Password Vault            Active
+    Nextcloud                  112      10.0.0.246        File Sync & Backup        WIP
+    Prometheus                 113      10.0.0.209        Alert Monitor             Active
+    Grafana                    114      10.0.0.36         Info Dashboard            Active
+    Heimdall                   115      10.0.0.40         Launcher Dashboard        Active
+    Uptime Kuma                116      10.0.0.13         Services Monitor          Active
+    Runtipi                    117      10.0.0.184        App Browser               Active
+    AdGuard                    118      10.0.0.137        Network Ad Blocker        Active
+    Streamlink                 119      10.0.0.233        Web-Stream DVR            Active
+    Ombi                       120      10.0.0.98         Media Request Portal      Active
+    MariaDB                    121      10.0.0.136        Database                  Active
+    Ollama	               122      10.0.0.170	  AI/LLM Host	            Active
+    Nginx Proxy Manager	       124      10.0.0.232	  Reverse Proxy	            Active
+    Flaresolverr               125      10.0.0.48         Cloudflare Workaround     Disabled
+    OpenMediaVault             130      10.0.0.5          NFS / SMB File Host       Active
 				
 
 ### 2. Command Post: **The Nexus Terminal**
