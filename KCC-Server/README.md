@@ -18,8 +18,8 @@ The KCC is a custom-built server, assembled from a combination of new and repurp
 | **Motherboard**| `ASUS ROG Strix B-450` | `AM4 Socket, 6x SATA Ports` | `A robust consumer-grade board with sufficient PCIe and SATA expansion for future growth.` |
 | **RAM** | `[RAM Manufacturer]` | `16GB DDR4 @ 3200MHz` | `Currently sufficient; primary candidate for future capacity upgrade.` |
 | **GPU** | `AMD Radeon R9 390` | `8GB GDDR5` | `Currently acting as a basic display adapter for the host console. Known issues with advanced driver features prevent reliable use for hardware acceleration within Proxmox at this time.` |
-| **Boot Drive** | `[SSD Manufacturer]` | `500GB SATA SSD` | `Hosts the Proxmox VE OS and all LXC/VM root disks for fast performance.` |
-| **Mass Storage**| `[HDD Manufacturer]`| `4TB NTFS HDD` | `Primary data storage. Passed through to a dedicated OMV VM.` |
+| **Boot Drive** | `Samsung` | `500GB SATA SSD` | `Hosts the Proxmox VE OS and all LXC/VM root disks for fast performance.` |
+| **Mass Storage**| `Western Digital`| `4TB NTFS HDD` | `Primary data storage. Passed through to a dedicated OMV VM.` |
 | **Chassis** | `Cooler Master HAF` | `5x HDD Bays` | `High-Airflow case, providing excellent thermal performance and physical expansion capacity.` |
 | **PSU** | `[PSU Manufacturer]` | `[Wattage]` | ` ` |
 
