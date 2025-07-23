@@ -1,16 +1,16 @@
 # Command Post Analysis: The Nexus Terminal
 
-`This document provides a detailed overview of my primary workstation, the "Nexus Terminal." While the KCC server handles the fleet's backend infrastructure, the Nexus Terminal serves as the high-performance "cockpit" for all user-facing tasks, including gaming, development, creative work, and fleet(netowork) management.`
+This document provides a detailed overview of my primary workstation, the "Nexus Terminal." While the KCC server handles the fleet's backend infrastructure, the Nexus Terminal serves as the high-performance "cockpit" for all user-facing tasks, including gaming, development, creative work, and fleet(netowork) management.
 
 `## I. Mission & Role`
 
-`The mission of the Nexus Terminal is to provide a powerful, customized, and responsive user experience. It is optimized for single-user, low-latency workloads and acts as the primary interface for managing and utilizing the services hosted on the KCC server. It is both a powerful asset in its own right and a seamless client for the broader home lab ecosystem.`
+The mission of the Nexus Terminal is to provide a powerful, customized, and responsive user experience. It is optimized for single-user, low-latency workloads and acts as the primary interface for managing and utilizing the services hosted on the KCC server. It is both a powerful asset in its own right and a seamless client for the broader home lab ecosystem.
 
 `---`
 
 `## II. Hardware Manifest`
 
-`The Nexus Terminal is a custom-built Arch Linux PC, restored into an HP Victus chassis. The hardware was selected for a balance of modern single-core CPU performance and reliable graphics capabilities on a Linux platform.`
+The Nexus Terminal is a custom-built Arch Linux PC, restored into an HP Victus chassis. The hardware was selected for a balance of modern single-core CPU performance and reliable graphics capabilities on a Linux platform.
 
 | Component | Make & Model | Specifications | Notes |
 | :--- | :--- | :--- | :--- |
